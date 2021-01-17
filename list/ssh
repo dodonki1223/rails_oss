@@ -1,2 +1,7 @@
 git@github.com:forem/forem.git
 git@github.com:gitlabhq/gitlabhq.git
+git@github.com:huginn/huginn.git
+git@github.com:postalhq/postal.git
+git@github.com:tootsuite/mastodon.git
+git@github.com:discourse/discourse.git
+git@github.com:spree/spree.git
