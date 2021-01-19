@@ -15,3 +15,23 @@ Rails の OSS をまとめたプロジェクトです
 | [mastodon](https://github.com/tootsuite/mastodon)   | 5.2.4.4    | 2.5.0 〜 3.0.0 | 23,397 |
 | [discourse](https://github.com/discourse/discourse) | 最新       | 2.7.1          | 32,375 |
 | [spree](https://github.com/spree/spree)             | 6.0 or 5.2 | 2.5.1          | 10,990 |
+
+## 使い方
+
+### OSSリポジトリを clone ＆ update する
+
+下記、コマンドを実行することで clone していないリポジトリは clone され、すでに clone されているリポジトリは update されます
+
+```shell
+sh clone_and_update.she
+```
+
+### ソースコードを横断的に検索する
+
+基本的にはVSCode を使用して OSS のコードを横断的に検索します
+`ワークスペースファイル（rails_oss.code-workspace）` ファイル があるので VSCode で開きます
+
+### OSS の追加方法
+
+- `./list/ssh` のファイルに OSS の ssh の clone 用のコマンドを追加します
+- VSCode の `ワークスペースファイル（rails_oss.code-workspace）` ファイルに追加した oss のフォルダを追加します
