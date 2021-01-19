@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "forem"
+		},
+		{
+			"path": "gitlabhq"
+		},
+		{
+			"path": "huginn"
+		},
+		{
+			"path": "postal"
+		},
+		{
+			"path": "mastodon"
+		},
+		{
+			"path": "discourse"
+		},
+		{
+			"path": "spree"
+		}
+	],
+	"settings": {}
+}
