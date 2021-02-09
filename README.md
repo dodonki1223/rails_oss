@@ -23,7 +23,7 @@ Rails の OSS をまとめたプロジェクトです
 下記、コマンドを実行することで clone していないリポジトリは clone され、すでに clone されているリポジトリは update されます
 
 ```shell
-sh clone_and_update.she
+bash clone_and_update.bash
 ```
 
 ### ソースコードを横断的に検索する
