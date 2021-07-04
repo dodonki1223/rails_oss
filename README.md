@@ -6,15 +6,15 @@ Rails の OSS をまとめたプロジェクトです
 
 スター数の多いプロジェクトをざっくりとまとめる
 
-| リポジトリ                                          | Rails      |  Ruby          | star   |
-|:---------------------------------------------------:|:----------:|:--------------:|:------:|
-| [forem](https://github.com/forem/forem)             | 6.0.3      | 2.7.2          | 15,839 |
-| [gitlabhq](https://github.com/gitlabhq/gitlabhq)    | 5.0.7.2    | 2.5.3          | 22,467 |
-| [huginn](https://github.com/huginn/huginn)          | 5.2.0      | 2.3.0以上      | 30,624 |
-| [postal](https://github.com/postalhq/postal)        | 5.2.2.1    | 2.3.0以上      | 10,166 |
-| [mastodon](https://github.com/tootsuite/mastodon)   | 5.2.4.4    | 2.5.0 〜 3.0.0 | 23,397 |
-| [discourse](https://github.com/discourse/discourse) | 最新       | 2.7.1          | 32,375 |
-| [spree](https://github.com/spree/spree)             | 6.0 or 5.2 | 2.5.1          | 10,990 |
+| リポジトリ                                          | Rails             |  Ruby                    | star   |
+|:---------------------------------------------------:|:-----------------:|:------------------------:|:------:|
+| [forem](https://github.com/forem/forem)             | 6.0.3             | 2.7.2                    | 16,947 |
+| [gitlabhq](https://github.com/gitlabhq/gitlabhq)    | 6.1.3.2           | 2.7.2                    | 22,637 |
+| [huginn](https://github.com/huginn/huginn)          | 6.0.3.1           | 2.5.0以上                | 31,735 |
+| [postal](https://github.com/postalhq/postal)        | 5.2.5             | 2.3.0以上                | 10,553 |
+| [mastodon](https://github.com/tootsuite/mastodon)   | 6.1.3             | 2.5.0 〜 3.1.0           | 24,375 |
+| [discourse](https://github.com/discourse/discourse) | 最新              | 2.7.0以上                | 33,541 |
+| [spree](https://github.com/spree/spree)             | 6.1 or 6.0 or 5.2 | 2.5 or 2.6 or 2.7 or 3.0 | 11,291 |
 
 ## 使い方
 
@@ -34,4 +34,3 @@ bash clone_and_update.bash
 ### OSS の追加方法
 
 - `./list/ssh` のファイルに OSS の ssh の clone 用のコマンドを追加します
-- VSCode の `ワークスペースファイル（rails_oss.code-workspace）` ファイルに追加した oss のフォルダを追加します
