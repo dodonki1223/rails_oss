@@ -18,9 +18,25 @@ Rails の OSS をまとめたプロジェクトです
 
 ## 使い方
 
+使い方は簡単で Rails 以外にも使用できるのでカスタマイズしてみてください。
+
+### ローカルに clone してくる
+
+普段どおり、clone してきます。
+
+```shell
+$ git clone git@github.com:dodonki1223/rails_oss.git
+```
+
+Rails の OSS 以外で使用したい場合は `folder_name` という箇所を好きなフォルダ名を指定してください。
+
+```shell
+$ git clone git@github.com:dodonki1223/rails_oss.git folder_name
+```
+
 ### OSSリポジトリを clone ＆ update する
 
-下記、コマンドを実行することで clone していないリポジトリは clone され、すでに clone されているリポジトリは update されます
+下記、コマンドを実行することで clone していないリポジトリは clone され、すでに clone されているリポジトリは update されます。
 
 ```shell
 bash clone_and_update.bash
@@ -28,9 +44,14 @@ bash clone_and_update.bash
 
 ### ソースコードを横断的に検索する
 
-基本的にはVSCode を使用して OSS のコードを横断的に検索します
-`ワークスペースファイル（rails_oss.code-workspace）` ファイル があるので VSCode で開きます
+基本的にはVSCode を使用して OSS のコードを横断的に検索します。  
+`ワークスペースファイル（oss.code-workspace）` ファイル があるので VSCode で開きます。
+
+```shell
+$ code oss.code-workspace
+```
 
 ### OSS の追加方法
 
 - `./list/ssh` のファイルに OSS の ssh の clone 用のコマンドを追加します
+- Rails 以外で使用する場合は `./list/ssh` のファイルの中身を全て削除して好きな OSS を追加します
