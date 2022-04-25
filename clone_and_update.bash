@@ -3,7 +3,7 @@
 declare -a cloneList=($(cat ./list/ssh))
 
 echo '{
-	"folders": [' > rails_oss.code-workspace
+	"folders": [' > oss.code-workspace
 
 for ((i = 0; i < ${#cloneList[@]}; i++)) {
   project_name=$(echo "${cloneList[i]}" | cut -d '/' -f2 | sed -e 's/.git//g')
@@ -11,7 +11,7 @@ for ((i = 0; i < ${#cloneList[@]}; i++)) {
 
   echo '		{
 			"path": "'${project_name}'"
-		},' >> rails_oss.code-workspace
+		},' >> oss.code-workspace
 
   if [ ! -d $project_dir ]; then
     echo $project_name clone start...
@@ -28,4 +28,4 @@ for ((i = 0; i < ${#cloneList[@]}; i++)) {
 
 echo '	],
 	"settings": {}
-}' >> rails_oss.code-workspace
+}' >> oss.code-workspace
